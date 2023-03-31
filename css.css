@@ -2,7 +2,7 @@
 /*-------GENERAL--------*/ 
 *{
     margin:0; padding: 0;box-sizing: border-box;
-    
+    transition: all 0,6s;
     
 }
 /*------------------*/
@@ -18,11 +18,14 @@ header{
 }
 h1{
     color: #000000;
+    font-size: 50px;
+    font-weight: 100px;
 }
 
 h3{
     color: #000000;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.37);
+    font-size: 30px;
 }
 
 
@@ -69,6 +72,21 @@ h3{
     
 }
 
+
+/*------ACA VAN A ESTAR LAS PROPIEDADES PARA QUE SE VEA LINDO EN EL CELU-------*/
+@media screen and(max-width=662px){
+    .fila .tarjeta{
+        width: 100%;
+
+    }
+    .flex{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+
+
+}
 .boton{
     height: 40px;
     padding: 10px 40px ;
@@ -81,7 +99,7 @@ h3{
 }
 
 .tarjeta .boton:hover{
-    transform: scale(1.8);
+    transform: scale(1.16);
     transition: 1s;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.905);
 }
