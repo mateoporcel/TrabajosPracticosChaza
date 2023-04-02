@@ -5,9 +5,13 @@
     transition: all 0,6s;
     
 }
+/*--------COLORES----------*/
+.negro{
+    color: #000000;
+}
+
+
 /*------------------*/
-
-
 header{
     height: 80px;
     width: 100%;
@@ -17,22 +21,30 @@ header{
     line-height: 80px;
 }
 h1{
-    color: #000000;
-    font-size: 50px;
+    
+    font-size: px;
     font-weight: 100px;
 }
 
 h3{
-    color: #000000;
+    
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.37);
     font-size: 30px;
 }
 
+h4{
+    font-size: 20px;
+    
+}
+
+p{
+    font-size: 20px;
+}
 
 .card{
     top: 40px;
     left: 50px;
-    background-color: black;
+    
 }
 
 .contenedor{
@@ -67,10 +79,9 @@ h3{
 .tarjeta .img{
     width: 100%;
     height: 180px;
-    background-color: #000000;
-    
-    
+    border-radius: 14px;
 }
+
 
 
 /*------ACA VAN A ESTAR LAS PROPIEDADES PARA QUE SE VEA LINDO EN EL CELU-------*/

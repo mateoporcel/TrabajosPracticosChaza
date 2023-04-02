@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+/* COLORES */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.azul{
+    background-color: #323286;
+}
+
+.fondo{
+    background-color: #141437;
+}
+
+.violeta{
+    background-color: #ac6bd6;
+}
+
+.blanco_t{
+    color: white;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.verde_t{
+    background-color: green;
+}
+
+.naranja_t{
+    background-color: orange;
+}
+
+#contenedor {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10%;
+    height: auto;
+}
+
+#imagen{
+    background-image: url('../img/pieza\ 11.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.parrrafo{
+    color: #a09b9bb2;
+}
+/* TIPOGRAFIAS Y ESTILOS */
+.fw400{
+    font-weight: 400px;
+}
+
+.fw100{
+    font-weight: 100px;
+}
+
+.secular__one{
+    font-family: 'Secular One', sans-serif;
+}
+
+p{
+    font-size: 10pt;
+}
+
+.jc__sb{
+    justify-content: space-between;
+}
+
+
+/* MEDIDAS CONTENEDORES */
+/* ANCHOS*/
+
+.w50 {
+    width: 50%;
+}
+
+/* ALTURAS */
+.h400 {
+    height: 400px;
+}
+
+
+
+/*  ORGANIZACION*/
+.fl {
+    float: left;
+} 
+
+/* .clearB {
+    clear: both;
+} */
+
+.dflex{
+    display: flex;
+}
+
+.pd20{
+    padding: 7%;
+}
+
+.columnas{
+    flex-direction: column;
+}
+
+.fila{
+    flex-direction: row;
+}
+
+/* MEDIA QUERIES */
+/* PARA QUE SEA RESPONSIVE */
+/* SECCION PARA ESTABLECER BREAKPOINTS */
+
+@media screen and ( max-width:1024px){
+    .flexdir{
+        flex-direction: column-reverse;
+    }
+}  
+
+@media  screen and( max-width:667px) {
+    .flexdir{
+        flex-direction: column-reverse;
+    }
+    .w50{
+        width: 100%;
+    }
+}
+
+#imagen.h400{
+    height: 400px;
+}
