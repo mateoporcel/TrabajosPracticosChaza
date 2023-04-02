@@ -1,7 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+/*.--TIPOGRAFIAS-----*/
+
+.bodoni{
+    font-family: 'Bodoni Moda', serif;
+}
+.serif{
+    font-family: 'PT Serif', serif;
+}
+.playfair{
+    font-family: 'Playfair Display SC', serif;
+}
+
+
+.textI{
+    text-indent: 10px;
+}
+
+/*---COLORES-----*/
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
+/*---MEDIDAS GENERALES-----*/
+*{
+    margin:0; padding: 0;box-sizing: border-box;
+}
+
 body{
-    background-color: #241000;
+    background-color: #6f5147;
+}
+
+.dflex{
+    display: flex;
+}
+
+.imgtop{
+    width: 100%;
+    height: 320px;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #4a2d29; 
+    border-radius: 0px 0px 9px 9px;
+    color: #e0e0c4;
 }
 
 .info1{
-    color: #ededd9;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 48%;
+    left: 2%;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #5e3d38;
+    border-radius: 2px 2px 9px 9px;
+    color: #e0e0c4;
 }
+
+/*--BARRA DE NAVEGACION---*/
+.buscador{
+    position: absolute;
+    background-color: #efcc62;
+    top: 59.5%;
+    left: 23%;
+    max-width: 570px;
+    width: 100%;
+}
+.iconsearch{
+    width: 45px;
+    height: 40px;
+    padding: 8px;
+}
+
+.navegador{
+    max-width: 500px;
+    width: 100%;
+    color: #8b8477c2;
+    
+}
+
+.inputsearch{
+    padding: 14px;
+}
+
+.botonsearch{
+    background-color: #8b8477;
+}
+
+/*---MITAD DE PAGINA-----*/
