@@ -99,3 +99,59 @@ body{
 }
 
 /*---MITAD DE PAGINA-----*/
+.iconsmid{
+    margin-top: 45px;
+    background-color: #ffe7e3;
+}
+
+.iconsmid ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    overflow-x:scroll ;
+}
+.iconsmid ul li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 0 0 200px;
+    gap: 10px;
+
+}
+.iconsmid ul li:not(:hover){
+    
+}
+.med{
+    font-size: 28pt!important ;
+}
+
+
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 5px;
+    width: 2px;
+    border-radius: 5px;
+}
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgb(192, 179, 60);;
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(230, 223, 168);;
+}
+
+.productos{
+    background-color: yellow;
+    padding: 10px;
+}
