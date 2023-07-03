@@ -33,6 +33,7 @@ body{
 
 .banner{
     height: 350px;
+    position: static;
 }
 
 .contenedor_img{
@@ -43,8 +44,7 @@ body{
     position:absolute;
     width: 900px;
     left: 350px;
-    bottom:-30%;
-    
+    bottom:-20%;
 }
 .info_banner1{
     z-index: 2;
@@ -75,4 +75,27 @@ body{
 
 .info_empresa2{
     font-size: 23px;
+}
+
+
+.articulos{
+    
+}
+.art{
+    max-width: 300px;
+    align-items: center;
+    text-align: center;
+    padding: 0.4rem;
+}
+.titulo_art{
+    font-size:30px;
+}
+.img_perf{
+    width: 300px;
+    height: 200px;
+}
+.btn_seguir{
+    border-radius: 4px;
+    border: 0;
+    color: rgb(0, 0, 0);
 }
