@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.babas_neue{
+    font-family: 'Bebas Neue', sans-serif;
+}
+@font-face {
+    font-family: press;
+    src: url(/REPASO/press_gothic_font.otf);
+}
+.press{
+    font-family: press;
+}
+
+body{
+    background-color: rgb(148, 148, 148);
+    font-family: 'Bebas Neue', sans-serif;
+}
+.dflex{
+    display: flex;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-family: press;
+}
+.img_titulo{
+    width: 60px;
+    height: 60px;
+}
+.titulo{
+    font-size: 50px;
+}
+
+
+.banner{
+    height: 350px;
+}
+
+.contenedor_img{
+    z-index: 1;
+}
+.img_banner{
+    z-index: 1;
+    position:absolute;
+    width: 900px;
+    left: 350px;
+    bottom:-30%;
+    
+}
+.info_banner1{
+    z-index: 2;
+    font-size: 40px
+}
+.info_banner2{
+    z-index: 2;
+    position:absolute;
+    font-size: 37px;
+    bottom: 42%;
+}
+
+.info_empresa{
+    height: 300px;
+}
+.img_fondo2{
+    width:45rem;
+    height: 26rem;
+}
+.desc_empresa{
+    justify-content:space-between ;
+}
+
+.info_empresa1{
+    font-size: 40px;
+    padding-left: 25px;
+}
+
+.info_empresa2{
+    font-size: 23px;
+}
