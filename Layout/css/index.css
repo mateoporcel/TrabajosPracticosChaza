@@ -101,9 +101,9 @@ body{color: dimgray; padding: 0; width: 92%; max-width: 1650px; margin: auto; }
 .h80 {height: 80px;}
 .publi {width: 80%; height: 80%;}
 
-.img1 {background-image: url(/img/back_notes.jpg); background-size: cover; background-position: center;}
-.img2 {background-image: url(/img/contacto.jpg); background-size: cover; background-position: center;}
-.img3 {background-image: url(/img/carrera.jpeg); background-size: cover; background-position: center;}
+.img1 {background-image: url(../img/back_notes.jpg); background-size: cover; background-position: center;}
+.img2 {background-image: url(../img/contacto.jpg); background-size: cover; background-position: center;}
+.img3 {background-image: url(../img/carrera.jpeg); background-size: cover; background-position: center;}
 /******************* ALTURAS **************/
 
 li{float: left; list-style: none;}
